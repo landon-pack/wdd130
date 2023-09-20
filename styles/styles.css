@@ -38,6 +38,6 @@ aside img {
 }
 footer {
     margin-top: 1em;
-    border-top: 1em;
+    border-top: .1em solid black;
     text-align: center;
 }
