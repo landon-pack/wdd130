@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Skranji&display=swap');
+
+:root {
+    
+    --primary-color: #78c0e0;
+    --secondary-color: #449DD1;
+    --accent1-color: #3943B7;
+    --accent2-color: #150578;
+
+    --heading-font: 'Skranji', sans-serif;
+    --paragraph-font: 'Roboto', serif;
+
+    --nav-background-color: white;
+    --nav-link-color: blue;
+    --nav-hover-link-color: blue;
+    --nav-hover-background-color: white;
+
+}
+
+.logo {
+    float: left;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+   color: var(--primary-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: black;
+    text-indent: 50px;
+    text-align: center;
+    margin: 200px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.sociallinks a {
+    text-decoration: none;
+    color: var(--nav-link-color);
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+}
+
+
+article img {
+    float: right;
+    margin-top: 150px;
+    margin-right: 400px;
+}
+
+article p {
+   margin-left: 100px;
+   text-align: center;
+   
+}
+
+h1 {
+    position: absolute;
+    width: 300px;
+    margin-top: 180px;
+    margin-left: 300px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+article {
+   position: absolute;
+
+}
+
