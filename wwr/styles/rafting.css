@@ -49,8 +49,10 @@ header {
 }
 
 .image-text {
-    background-color: rgba(0, 150, 400, .4);
-    color: white;
+    background-color: rgba(255, 255, 255, .6);
+    color: black;
+    padding: 20px;
+    margin-top: 200px;
 }
 
 .logo {
@@ -79,12 +81,16 @@ h1, h2 {
     color: var(--primary-color);
 }
 
+.history{
+    margin: 0 !important;
+
+}
 p {
     font-family: var(--paragraph-font);
     color: black;
     text-indent: 50px;
     text-align: center;
-    margin: 200px;
+    margin: 20px;
     background-color: rgba(0, 0, 0, 0);
 }
 
@@ -106,8 +112,9 @@ body {
 
 article img {
     float: right;
-    margin-top: 180px;
+    margin-top: 230px;
     margin-right: 10px;
+    padding: 0 !important;
 }
 
 article p {
@@ -126,4 +133,19 @@ h1 {
 
 article {
     position: absolute;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.sociallinks {
+    display: flex;
+    gap: 5px;
+}
+
+.sociallinks a img {
+    width: 30px;
 }
