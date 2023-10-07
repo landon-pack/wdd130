@@ -1,21 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Skranji&display=swap');
 
 :root {
-    
     --primary-color: #78c0e0;
     --secondary-color: #449DD1;
     --accent1-color: #3943B7;
     --accent2-color: #150578;
-
     --heading-font: 'Skranji', sans-serif;
     --paragraph-font: 'Roboto', serif;
-
     --nav-background-color: white;
     --nav-link-color: blue;
     --nav-hover-link-color: blue;
     --nav-hover-background-color: white;
-
 }
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto; 
+    justify-content: center;
+    align-items: center;
+}
+
+.adventure {
+    text-align: center; 
+}
+
+.adventure-heading {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+.adventure-images {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+.adventure-images img {
+    width: 100%; 
+    max-width: 200px; 
+    margin: 10px; 
+}
+
+
 
 .hero {
     position: relative;
@@ -27,12 +54,29 @@
 }
 
 .logo {
-    float: left;
+    grid-column: 1; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid var(--primary-color);
+    padding: 1rem;
+    border-radius: 8px;
+    flex-direction: row;
+    grid-column: 2; 
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--nav-link-color);
+    margin: 0 20px;
 }
 
 h1, h2 {
     font-family: var(--heading-font);
-   color: var(--primary-color);
+    color: var(--primary-color);
 }
 
 p {
@@ -49,13 +93,16 @@ p {
     color: var(--nav-link-color);
 }
 
+footer nav {
+    border: none;
+}
+
 body {
     max-width: 800px;
     margin: 0 auto;
     padding: 2em;
     text-align: center;
 }
-
 
 article img {
     float: right;
@@ -64,9 +111,8 @@ article img {
 }
 
 article p {
-   margin-left: 100px;
-   text-align: center;
-   
+    margin-left: 100px;
+    text-align: center;
 }
 
 h1 {
@@ -79,8 +125,5 @@ h1 {
 }
 
 article {
-   position: absolute;
-
+    position: absolute;
 }
-
-
