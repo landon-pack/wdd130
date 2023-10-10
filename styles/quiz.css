@@ -24,37 +24,40 @@ body {
     font-size: 1.2em;
     color: #000;
     background: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
     margin: 0 auto;
-    width: 650px;
-}
-
-h1 {
-    margin: 1rem;
-    font-size: 1.5rem;
+    width: 100%;
     text-align: center;
-    color: navy;
+    padding: 1rem;
+    color: black;
 }
 
 main {
-    width: 650px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; 
 }
 
 form {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto; /* Center the form horizontally */
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, .2);
     border-radius: 0.5rem;
     background-color: white;
-    display: grid;
 }
 
 fieldset {
     display: grid;
-    grid-gap: 0.5rem;
-    margin: 1rem;
+    grid-gap: 1rem;
+    margin: 1rem 0;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
 }
@@ -66,13 +69,16 @@ legend {
 }
 
 label {
-    text-align: right;
-    padding-right: 1rem;
+    text-align: left;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
+    width: 100%;
     padding: 0.5rem;
     font-size: 1.1rem;
+    margin-bottom: 1rem;
 }
 
 input[type="checkbox"] {
@@ -82,14 +88,14 @@ input[type="checkbox"] {
 }
 
 button {
-    margin: 0 auto;
     background-color: navy;
     color: white;
     border: none;
     border-radius: .5rem;
     padding: 1rem;
     font-size: 1.5rem;
-    
+    width: 100%;
+    cursor: pointer;
 }
 
 button:hover {
@@ -97,23 +103,10 @@ button:hover {
 }
 
 footer {
-    margin: 1rem auto 0;
+    margin: 0 auto; 
     width: 650px;
     text-align: center;
     border-top: 1px solid black;
-}
-
-.form-item {
-    display: grid;
-    align-items: center;
-}
-
-.column1 {
-    grid-template-columns: 3fr 1fr;
-    margin: 20px; 
-}
-
-.column2 {
-    grid-template-columns: 1fr 2fr;
-    margin: 10px; 
+    padding: 1rem;
+    color: black;
 }
