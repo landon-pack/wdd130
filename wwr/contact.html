@@ -44,6 +44,7 @@
         </section>
 
         <section>
+            <h1></h1>
             <h2>Contact Us</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos tempore, iure nesciunt laudantium esse, sed aperiam incidunt fugit cupiditate optio ducimus molestias libero dolores, at fugiat? Atque, dicta! Delectus praesentium est mollitia voluptatem fuga, quasi rerum officia velit distinctio cupiditate maxime quidem neque laudantium totam fugit minus nobis repellendus excepturi cum ratione rem, corrupti dolor obcaecati eius? Totam impedit, voluptatibus veritatis doloribus ipsa deleniti explicabo reiciendis perspiciatis sed! Doloremque repellat molestias dicta, quibusdam sint quia laborum explicabo saepe expedita enim architecto nesciunt commodi tempora nobis, odit rem maxime ratione odio fugiat sequi tenetur nulla. Nihil fugit cupiditate eius neque deleniti.</p>
         </section>
@@ -65,12 +66,15 @@
                 <fieldset>
                     <legend>Questions</legend>
                     <div class="form-item column1">
-                        <label for="browser">What is the purpose of your message?</label>
-                        <select id="browser" name="browser">
-                            <option value="chrome">General Inquiry</option>
-                            <option value="firefox">Reservation Question</option>
-                            <option value="explorer">Website Suggestion</option>
-                        </select>
+                        <label for="purpose">What is the purpose of your message?</label>
+                        <input type="radio" id="generalInquiry" name="purpose" value="generalInquiry">
+                        <label for="generalInquiry">General Inquiry</label>
+        
+                        <input type="radio" id="reservationQuestion" name="purpose" value="reservationQuestion">
+                        <label for="reservationQuestion">Reservation Question</label>
+        
+                        <input type="radio" id="websiteSuggestion" name="purpose" value="websiteSuggestion">
+                        <label for="websiteSuggestion">Website Suggestion</label>
                     </div>
                     <div class="form-item column2">
                         <label for="feedback">Enter your message below:</label>
@@ -92,12 +96,11 @@
             <a href="https://facebook.com">
                 <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-128.png" alt="Facebook">
             </a>
-            <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-128.png" alt="Twitter">
             <a href="https://twitter.com">
+                <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-128.png" alt="Twitter">
             </a>
             <a href="https://instagram.com">
                 <img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-128.png" alt="Instagram">
-            </a>
         </nav>
     </footer>
 </body>
