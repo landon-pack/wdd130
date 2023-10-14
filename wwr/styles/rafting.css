@@ -1,3 +1,4 @@
+/*  */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Skranji&display=swap');
 
 :root {
@@ -107,8 +108,6 @@ p {
 footer nav {
     border: none;
 }
-
-
 
 article img {
     float: right;
@@ -221,4 +220,14 @@ button {
 
 button:hover {
     background-color: darkgreen;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr ; /* Two equal columns */
+    gap: 20px; /* Adjust the gap between the columns */
+}
+
+.company-info {
+    grid-template-columns: 1fr auto;
 }

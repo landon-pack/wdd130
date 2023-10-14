@@ -1,3 +1,4 @@
+/*  */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Skranji&display=swap');
 
 :root {
@@ -11,13 +12,6 @@
     --nav-link-color: blue;
     --nav-hover-link-color: blue;
     --nav-hover-background-color: white;
-}
-
-body {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2em;
-    text-align: center;
 }
 
 header {
@@ -48,6 +42,8 @@ header {
     max-width: 200px; 
     margin: 10px; 
 }
+
+
 
 .hero {
     position: relative;
@@ -86,10 +82,10 @@ h1, h2 {
     color: var(--primary-color);
 }
 
-.history {
+.history{
     margin: 0 !important;
-}
 
+}
 p {
     font-family: var(--paragraph-font);
     color: black;
@@ -106,6 +102,13 @@ p {
 
 footer nav {
     border: none;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
 }
 
 article img {
@@ -148,7 +151,8 @@ footer {
     width: 30px;
 }
 
-/* Contact Form Section */
+/* ... (your existing code) ... */
+
 #contact-form {
     display: grid;
     grid-template-columns: 1fr; /* Updated to a single column */
@@ -182,21 +186,11 @@ legend {
     align-items: center;
 }
 
-.input-group {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Adjusted to a two-column layout */
-    gap: 20px;
-}
-
 input, select, textarea {
     width: 100%; /* Full-width input */
     padding: 0.5rem;
     font-size: 1.1rem;
     margin-bottom: 0.5rem; /* Add some space between form items */
-}
-
-.input-group input {
-    margin-bottom: 0; /* Remove margin-bottom for better alignment */
 }
 
 input[type="checkbox"] {
@@ -214,19 +208,11 @@ button {
     border-radius: 0.5rem;
     padding: 1rem;
     font-size: 1.5rem;
-    cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+
 }
 
 button:hover {
     background-color: darkgreen;
 }
 
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr ; /* Two equal columns */
-    gap: 20px; /* Adjust the gap between the columns */
-}
-
-.company-info {
-    grid-template-columns: 1fr auto;
-}
+/* ... (your existing code) ... */
