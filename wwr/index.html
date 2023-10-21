@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us page</title>
+    <meta name="description" content="A page with information about the company">
+    <meta name="author" content="Landon Pack">
+    <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpeg" alt="Logo" class="logo">
+        <nav>
+            <a href="../index.html"> Home Page</a>
+            <a href="about.html">About us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact us</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Large full-width image with heading message -->
+        <div class="header-image">
+            <h1>Welcome to Idaho Rafting Excursions</h1>
+        </div>
+        
+        <!-- Newsletter sign-up form -->
+        <section class="newsletter">
+            <h2>Subscribe to our Newsletter</h2>
+            <form action="subscribe.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+        
+        <!-- Call to action to visit the trips page -->
+        <section class="cta">
+            <h2>Plan Your Adventure Today!</h2>
+            <p>Explore our exciting rafting trips and book your adventure now.</p>
+            <a href="trips.html" class="cta-link">Visit Trips</a>
+        </section>
+        
+        <!-- CSS grid layout with images and content -->
+        <section class="grid-layout">
+            <div class="grid-item">
+                <img src="rafting-site1.jpg" alt="Rafting Site 1">
+                <h3>Thrilling Rapids</h3>
+                <p>Experience the excitement of navigating thrilling rapids in our beautiful river.</p>
+            </div>
+            <div class="grid-item">
+                <img src="rafting-site2.jpg" alt="Rafting Site 2">
+                <h3>Scenic Beauty</h3>
+                <p>Enjoy the scenic beauty of Idaho's natural landscapes on our relaxing trips.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 | Idaho Rafting Excursions | Landon Pack</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-128.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-128.png" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-128.png" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
