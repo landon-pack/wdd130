@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About us page</title>
-    <meta name="description" content="A page with information about the company">
+    <title>Idaho Rafting Excursions Home Page</title>
+    <meta name="description" content="The landing page for Idaho Rafting Adventures website. From here, you can access the whole website.">
     <meta name="author" content="Landon Pack">
     <link rel="stylesheet" href="styles/home.css">
 </head>
@@ -19,21 +19,21 @@
         </nav>
     </header>
     <main>
-        <!-- Large full-width image with heading message -->
-        <div class="header-image">
-            <h1>Welcome to Idaho Rafting Excursions</h1>
-        </div>
-        
-        <!-- Newsletter sign-up form -->
-        <section class="newsletter">
-            <h2>Subscribe to our Newsletter</h2>
-            <form action="subscribe.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <button type="submit">Subscribe</button>
-            </form>
+        <section class="hero-and-newsletter">
+            <div class="hero">
+                <h1>Welcome to Idaho Rafting Excursions</h1>
+                <img src="https://images.unsplash.com/photo-1543076499-a6133cb932fd?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fHJhZnRpbmd8ZW58MHx8MHx8fDA%3D" alt="Rafting image">
+            </div>
+            <div class="newsletter">
+                <h2>Subscribe to our Newsletter</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
         </section>
         
         <!-- Call to action to visit the trips page -->
