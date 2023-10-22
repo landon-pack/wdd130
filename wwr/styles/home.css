@@ -126,10 +126,6 @@ article p {
 }
 
 h1 {
-    width: 300px;
-    margin-top: 100px;
-    margin-left: 260px;
-    padding-top: 10px;
     text-align: center;
 }
 
@@ -218,7 +214,7 @@ button:hover {
 .hero-and-newsletter {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* Adjust alignment as needed */
+    align-items: flex-start; 
     margin: 20px;
     padding: 20px;
 }
