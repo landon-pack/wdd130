@@ -81,7 +81,7 @@ h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     background-color: rgba(255, 255, 255, .2);
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .history{
@@ -91,7 +91,6 @@ h1, h2 {
 p {
     font-family: var(--paragraph-font);
     color: black;
-    text-indent: 50px;
     text-align: center;
     margin: 20px;
     background-color: rgba(0, 0, 0, 0);
@@ -211,25 +210,43 @@ button:hover {
     background-color: darkgreen;
 }
 
-.hero-and-newsletter {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start; 
+.cta-and-newsletter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
     margin: 20px;
     padding: 20px;
 }
 
-.hero {
-    flex: 1;
-    text-align: center;
-}
-
-.hero img {
-    max-width: 100%;
-    height: auto;
+.cta {
+    padding: 20px;
+    color: white;
 }
 
 .newsletter {
-    flex: 1;
-    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.cta-link {
+    display: inline-block;
+    background-color: navy; /* Use the same accent color as the "Subscribe" button */
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-link:hover {
+    background-color: darkgreen; /* Change to the secondary accent color on hover */
 }
