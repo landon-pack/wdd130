@@ -236,7 +236,7 @@ button:hover {
 
 .cta-link {
     display: inline-block;
-    background-color: navy; /* Use the same accent color as the "Subscribe" button */
+    background-color: navy; 
     color: white;
     padding: 0.5rem 1rem;
     font-size: 1.2rem;
@@ -248,5 +248,5 @@ button:hover {
 }
 
 .cta-link:hover {
-    background-color: darkgreen; /* Change to the secondary accent color on hover */
+    background-color: darkgreen; 
 }
